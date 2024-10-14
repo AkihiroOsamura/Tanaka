@@ -64,7 +64,10 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Tateishi/ShakeObject1.cs" />
+    <Compile Include="Assets/Tateishi/FiveButton.cs" />
     <Compile Include="Assets/ShakeObject.cs" />
+    <Compile Include="Assets/Tateishi/BlinkRed1.cs" />
     <Compile Include="Assets/BlinkRed.cs" />
   </ItemGroup>
   <ItemGroup>
