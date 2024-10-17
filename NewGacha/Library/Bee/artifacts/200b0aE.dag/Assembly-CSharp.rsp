@@ -353,9 +353,6 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/BlinkRed.cs"
 "Assets/ShakeObject.cs"
-"Assets/Tateishi/BlinkRed1.cs"
-"Assets/Tateishi/FiveButton.cs"
-"Assets/Tateishi/ShakeObject1.cs"
 -langversion:9.0
 
 /deterministic
