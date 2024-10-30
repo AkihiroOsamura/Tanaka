@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50856
+49478
 Successfully changed project path to: /Users/hw22a045/Tanaka/NewGacha
 /Users/hw22a045/Tanaka/NewGacha
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/hw22a045/Tanaka/NewGacha
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8272313024] Host "[IP] 192.168.162.109 [Port] 0 [Flags] 2 [Guid] 2590249939 [EditorId] 2590249939 [Version] 1048832 [Id] OSXEditor(0,HW22A045) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8272313024] Host "[IP] 192.168.11.4 [Port] 0 [Flags] 2 [Guid] 1181402814 [EditorId] 1181402814 [Version] 1048832 [Id] OSXEditor(0,HW22A045) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8272313024] Host "[IP] 192.168.162.109 [Port] 0 [Flags] 2 [Guid] 2590249939 [EditorId] 2590249939 [Version] 1048832 [Id] OSXEditor(0,HW22A045) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8272313024] Host "[IP] 192.168.11.4 [Port] 0 [Flags] 2 [Guid] 1181402814 [EditorId] 1181402814 [Version] 1048832 [Id] OSXEditor(0,HW22A045) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 6.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 10.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56798
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56933
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001072 seconds.
-- Loaded All Assemblies, in  0.292 seconds
+Registered in 0.001575 seconds.
+- Loaded All Assemblies, in  0.300 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.262 seconds
-Domain Reload Profiling: 554ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.196 seconds
+Domain Reload Profiling: 496ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (84ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (127ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (262ms)
+	FinalizeReload (196ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (196ms)
+		SetupLoadedEditorAssemblies (143ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,56 +121,56 @@ Domain Reload Profiling: 554ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.468 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.367 seconds
-Domain Reload Profiling: 837ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.372 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (298ms)
-		LoadAssemblies (195ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (205ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (104ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (368ms)
+	FinalizeReload (372ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
+		SetupLoadedEditorAssemblies (274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (215ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (51.3 KB). Loaded Objects now: 3572.
-Memory consumption went from 136.3 MB to 136.2 MB.
-Total: 21.306459 ms (FindLiveObjects: 1.780000 ms CreateObjectMapping: 0.155250 ms MarkObjects: 18.897208 ms  DeleteObjects: 0.472917 ms)
+Unloading 32 unused Assets / (51.6 KB). Loaded Objects now: 3572.
+Memory consumption went from 136.2 MB to 136.1 MB.
+Total: 2.591583 ms (FindLiveObjects: 0.133667 ms CreateObjectMapping: 0.039833 ms MarkObjects: 2.309167 ms  DeleteObjects: 0.108166 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,17 +187,317 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2520895.903578 seconds.
+  Time since last request: 2764105.774851 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da487239a3adafc7a3348dcb63dbc8e5') in 0.001650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.553879 seconds.
+  path: Assets/Osamura
+  artifactKey: Guid(2e75002d952bf4657a4897379934d18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura using Guid(2e75002d952bf4657a4897379934d18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38f267cacf8ecb5b411538d9b7b153f') in 0.012805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.661837 seconds.
+  path: Assets/Osamura/SampleScene.unity
+  artifactKey: Guid(35f08c5af8d1046dc8710b0bf77ed923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/SampleScene.unity using Guid(35f08c5af8d1046dc8710b0bf77ed923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d8b00b955fee0a9ced33c76b7106df') in 0.006218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 178.941478 seconds.
+  path: Assets/Osamura/360_F_17210074_3lH2GDrnpYg9Mx3cpJd14NZQvN3mK0rE.jpg
+  artifactKey: Guid(54f753dc1394345e2af7a98520c0c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/360_F_17210074_3lH2GDrnpYg9Mx3cpJd14NZQvN3mK0rE.jpg using Guid(54f753dc1394345e2af7a98520c0c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e2538e9d77ae2af819c216e08c1c39') in 0.300972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x309ff7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.484 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.268 seconds
+Domain Reload Profiling: 1754ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1269ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3578.
+Memory consumption went from 135.5 MB to 135.5 MB.
+Total: 5.782750 ms (FindLiveObjects: 0.217916 ms CreateObjectMapping: 0.044167 ms MarkObjects: 5.388250 ms  DeleteObjects: 0.132000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12181.483154 seconds.
+  path: Assets/Osamura/materials
+  artifactKey: Guid(86c619c8527c447119a7d5329e235376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/materials using Guid(86c619c8527c447119a7d5329e235376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ab792d4b164b4d1f895eefc2db20b1') in 0.026716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001235 seconds.
+  path: Assets/Osamura/materials/360_F_17210074_3lH2GDrnpYg9Mx3cpJd14NZQvN3mK0rE.mat
+  artifactKey: Guid(48fd61d18b8fb4806af5bb61eac04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/materials/360_F_17210074_3lH2GDrnpYg9Mx3cpJd14NZQvN3mK0rE.mat using Guid(48fd61d18b8fb4806af5bb61eac04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ff0d81960bebf5e0eaf2c599a1bc3c') in 0.824540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Osamura/materials/glass.mat
+  artifactKey: Guid(abc9b16d1ec4d436e89d135fd2e6d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/materials/glass.mat using Guid(abc9b16d1ec4d436e89d135fd2e6d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095bd66f6141f69acc3b6e46a8d72f1b') in 0.145210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 272.121195 seconds.
+  path: Assets/Osamura/materials/body.mat
+  artifactKey: Guid(8d5b926c79e7a4ea286c944d3050729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/materials/body.mat using Guid(8d5b926c79e7a4ea286c944d3050729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf384581a96b86fbdbee52fe756b303') in 0.057388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d103000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.230 seconds
+Domain Reload Profiling: 1779ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3621.
+Memory consumption went from 145.5 MB to 145.5 MB.
+Total: 4.384584 ms (FindLiveObjects: 0.267417 ms CreateObjectMapping: 0.061625 ms MarkObjects: 3.931541 ms  DeleteObjects: 0.122834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.923225 seconds.
   path: Assets/Osamura/gacha_model.prefab
   artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660cd99c187a5aeda42f8e1ea6193421') in 0.172434 seconds
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad491e1d5bb4e8cb7aad64e9ae45d63') in 0.275889 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 135
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Osamura/common.prefab
-  artifactKey: Guid(e9e66260ddf8b4a08805d04fd5c8f224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Osamura/common.prefab using Guid(e9e66260ddf8b4a08805d04fd5c8f224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a424d0f56ef2d3e466f2fa069888fb6') in 0.007891 seconds
+  Time since last request: 18.428972 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9027fc1ae6eb9125a5e3b22f06113822') in 0.033600 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 9.353560 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f158208acfd9f191df17cd20018b11b8') in 0.035533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 7.479373 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a0735fe4c13788bc9401a318cde8c8') in 0.043717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 15.599023 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7914f13014e2ae5d6ea3933dc6a45469') in 0.055601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 5.068058 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b806cb58f0f31b9d53a75e267a9fea88') in 0.023371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 5.275316 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc3fde97172bf703b97d2bfdabfc238') in 0.042943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 4.530522 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fc2db8c1bbb274cccf9b3c11c5fdff') in 0.029311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 7.234683 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39fd61887ad277b0d488bd39ab4c1c9') in 0.028191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 9.418402 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccae9dd30cbd0a049aa1b1ed219364a') in 0.037282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 172.617378 seconds.
+  path: Assets/Osamura/materials/body.mat
+  artifactKey: Guid(8d5b926c79e7a4ea286c944d3050729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/materials/body.mat using Guid(8d5b926c79e7a4ea286c944d3050729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6416800fec25a93feaefd87196f3cbbc') in 0.040964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 81.963506 seconds.
+  path: Assets/Osamura/materials/bg.mat
+  artifactKey: Guid(48fd61d18b8fb4806af5bb61eac04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/materials/bg.mat using Guid(48fd61d18b8fb4806af5bb61eac04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17045a28ce271b0c93ed5158ca712b0') in 0.057733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 56.567339 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf1b1b0c3a0316f65ec92b863cb975b') in 0.043363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.937187 seconds.
+  path: Assets/Osamura/balls
+  artifactKey: Guid(ba608256144444b6189bc3ed18ce6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/balls using Guid(ba608256144444b6189bc3ed18ce6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6708288370ed67e2918c775a249f4c5') in 0.001422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 60.925874 seconds.
+  path: Assets/Osamura/gacha_model.prefab
+  artifactKey: Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Osamura/gacha_model.prefab using Guid(915ab70d49b504ff8b9db63f8f616f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92572eb41feefd96cbfbd913a6a61b0') in 0.020263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
